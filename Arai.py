@@ -1,7 +1,8 @@
 """555"""
-a = int(input())
-b = int(input())
-if not a % b :
-    print("yes")
+work = int(input())
+mid = int(input())
+fin = int(input())
+if work >= 5 and mid >= 20 and fin >= 25 :
+    print("pass")
 else :
-    print("no")
+    print("fail")
