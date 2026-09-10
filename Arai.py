@@ -1,18 +1,18 @@
 """555"""
-n = int(input())
-max_values = []
-total = 0
-for _ in range(n):
-    a = int(input())
-    b = int(input())
-    if a >= b:
-        max_values.append(a)
-        total += a
-    else:
-        max_values.append(b)
-        total += b
-if n == 1:
-    print(total)
-else:
-    EXPRESSION = " + ".join(map(str, max_values))
-    print(f"{EXPRESSION} = {total}")
+inputs = input().split(" ")
+x = int(inputs[0])
+k = inputs[1]
+for i in range(x):
+    row_chars = []
+    for j in range(x):
+        if i == j or i + j == x - 1:
+            if k == '#':
+                row_chars.append('#')
+            else:
+                center = x // 2
+                distance = abs(i - center)
+                char_code = ord(k) + center - distance
+                row_chars.append(chr(char_code))
+        else:
+            row_chars.append('-')
+    print("".join(row_chars))
