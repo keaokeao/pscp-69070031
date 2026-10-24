@@ -1,1 +1,199 @@
+## 1. ข้อมูล OJ
 
+หมายเลข/ชื่อโจทย์ OJ:
+
+```text
+OJ3360
+```
+
+OJ submission ID ถ้ามีการส่งแล้ว:
+
+```text
+690325
+```
+
+สถานะ OJ:
+
+```text
+Pass
+```
+
+เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง:
+
+```text
+60 minutes
+```
+
+---
+
+## 2. ความเข้าใจโจทย์ของฉัน
+
+```text
+Input:
+รับค่าขนาดขนมปัง
+รับค่ามีดแนวนอน
+รับค่ามีดแนวตั้ง
+
+Output:
+ขนาดที่ใหญ่ที่สุด 2 ชิ้นแรก
+
+Constraints:
+ถ้าขนามปังขนาดต่างกันให้เรียงชิ้นใหญ่สุดขึ้นก่อน
+```
+
+---
+
+## 3. แผนแรกของฉัน
+
+```text
+1.รับค่า
+คำนวณหาชิ้นที่มีขนาดใหม่ที่สุดที่เป็นไปได้
+```
+
+---
+
+## 4. วิธีสุดท้ายที่ใช้จริง
+
+```text
+เหมือนกันเพราะใช้ได้แล้ว
+```
+
+---
+
+## 5. การทดสอบของฉัน
+
+### Test Case 1
+
+ทำไมเลือก case นี้:
+
+```text
+เรียงเลข
+```
+
+Input:
+
+```text
+1 2 3 4
+1 2 3 4
+1 2 3 4
+```
+
+Expected output:
+
+```text
+1 1
+```
+
+Actual output:
+
+```text
+1 1
+```
+
+Result:
+
+```text
+Pass
+```
+
+### Test Case 2
+
+ทำไมเลือก case นี้:
+
+```text
+ขนาดทุกอย่างเท่ากัน
+```
+
+Input:
+
+```text
+5 5 5 5
+5 5 5 5
+5 5 5 5
+```
+
+Expected output:
+
+```text
+25 0
+```
+
+Actual output:
+
+```text
+25 0
+```
+
+Result:
+
+```text
+Pass
+```
+
+### Test Case 3
+
+ทำไมเลือก case นี้:
+
+```text
+ไม่มีขนมปัง
+```
+
+Input:
+
+```text
+0 0 0 0
+1 1 1 1
+2 2 2 2
+```
+
+Expected output:
+
+```text
+0 0
+```
+
+Actual output:
+
+```text
+2 0
+```
+
+Result:
+
+```text
+Pass
+```
+
+---
+
+## 6. การใช้ AI
+
+```text
+No
+```
+
+---
+
+## 7. ความช่วยเหลือจากคน / การร่วมมือ
+
+ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
+
+```text
+No
+```
+
+---
+
+## 8. คำรับรองของนักศึกษา
+
+เขียน `Yes` ในแต่ละ statement
+
+| Statement | Yes/No |
+|---|---|
+| I wrote this submission in my own words. | Yes |
+| I understand my final code. | Yes |
+| I recorded the real OJ status. | Yes |
+| I did not copy AI-generated text directly into this file. | Yes |
+| I did not copy code from another person. | Yes |
+| If I received human help, I disclosed it in this file. | Yes |
+| I submitted the final code to the OJ by myself. | Yes |
